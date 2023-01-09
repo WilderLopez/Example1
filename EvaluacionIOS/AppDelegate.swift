@@ -15,6 +15,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        WeatherNetworkLayer.shared.configure(apikey: "78f4772ecac5ace56022016379caaa43")
+        
         return true
     }
 
